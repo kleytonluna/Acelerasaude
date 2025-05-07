@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+    display: flex;
+    align-content: center;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    background: #dce6f3;     
+    display: block;         
+    
+    }
+         
+    div {
+      background: #180FA4;
+      background: transparent;
+      position: absolute;
+      border: 5px solid ;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      padding: 100px;
+      border-radius: 15px;
+      color: #ff2978;
+  
+    }
+    input{
+      padding: 15px;
+      border: none;
+      outline: none;
+      font-size: 15px;
+    }
+    button{
+      background-color:white;
+      border: none;
+      padding: 15px;
+      width: 100%;
+      border-radius: 10px;
+      color: #ff2978;
+      font-size: 25px;
+      cursor: pointer;
+    }
+    button:houver{
+     color: #ff2978;
+     border-top: 4px solid #180F4A;
+    }
+    .casal{
+        max-width: 100%;
+        margin-right: -200px;
+        margin-right: 200px;
+        margin-top: 50px;    
+                   
+    }
+    .coraçao{
+    height: 600px;
+   
+       
+
+    }
+    h3{
+     margin-right: 10%;
+     color: #ff2978;
+
+    }
+    main form input[type="submit"] {
+      cursor: pointer;
+      width: 50%;
+      margin-top: 4rem;
+      border: none;
+      border-radius: 32px;
+      background: #180F4A;
+      color: #ff2978;
+      font-size: 1.1rem;
+      transition: all .3s ease-in-out;
+  }
+  
+  
+  main form input[type="submit"]:hover {
+      background: #180F4A;
+     
+     
+   
+   @media (max-width: 1200px) {
+      .cabecalho{
+           padding: 10%;  
+      }
+      .cabecalho__menu{
+          justify-content: center;
+      }
+      .apresentacao{
+          flex-direction: column-reverse;
+      }
+  }
