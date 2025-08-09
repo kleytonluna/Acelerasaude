@@ -42,3 +42,4 @@ if (strlen($senha) < 8) {
 
 $conn->close();
 ?>
+
