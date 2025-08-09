@@ -29,7 +29,7 @@ if ($result->num_rows > 0) {
     $sql = "INSERT INTO usuario (nome, email, cpf, senha) VALUES('$nome', '$email', '$cpf', '$senha')";
     if ($conn->query($sql) === TRUE) {
         echo "<script>alert('USUÁRIO CADASTRADO!');</script>";
-        echo "<script>window.location.href='http://localhost/Acelera-nova-versao-01/login.html';</script>"; // Substitua por sua página de sucesso
+        echo "<script>window.location.href='https://acelerasaude.vercel.app/';</script>"; // Substitua por sua página de sucesso
         exit(); // Importante encerrar a execução após o redirecionamento
     } else {
         echo "<script>alert('NÃO FOI POSSÍVEL CADASTRAR O USUÁRIO! " . $conn->error . "');</script>";
@@ -37,3 +37,4 @@ if ($result->num_rows > 0) {
 }
 
 $conn->close();
+
