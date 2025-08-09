@@ -31,7 +31,7 @@ if (strlen($senha) < 8) {
 
     if ($stmt->execute()) {
         echo "<script>alert('USUÁRIO CADASTRADO COM SUCESSO!');</script>";
-        header("Location: http://localhost/Acelera-nova-versao-01/tela-principal.html");
+        header("Location:https://acelerasaude.vercel.app/");
         exit();
     } else {
         echo "<script>alert('ERRO AO CADASTRAR O USUÁRIO: " . $stmt->error . "');</script>";
@@ -42,3 +42,4 @@ if (strlen($senha) < 8) {
 
 $conn->close();
 ?>
+
